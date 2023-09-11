@@ -3,7 +3,7 @@ function TopSection() {
     <>
       <div className="top-section container mx-auto">
         <div className="">
-          <div className="grid grid-cols-2 gap-4 place-items-center m-28">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center m-10 md:m-10">
             <div className="text-section font-satoshi">
               {/* Text */}
               <div className="top-text ">
@@ -17,16 +17,23 @@ function TopSection() {
                 </p>
               </div>
               <div className="button-section mt-10 text-white">
-                {/* Button */}
-                <a href="#" className="bg-green-950 p-4 px-6 me-3 rounded">
-                  Get Started
-                </a>
-                <a href="#" className="bg-green-300 p-4 px-6 rounded">
-                  Learn More
-                </a>
+                {/* Button */}d
+                <div className="block md:inline">
+                  <button
+                    href="#"
+                    className="bg-green-950 p-4 px-6 me-3 rounded"
+                  >
+                    Get Started
+                  </button>
+                </div>
+                <div className="block md:inline mt-2 md:mt-0">
+                  <button href="#" className="bg-green-300 p-4 px-6 rounded">
+                    Learn More
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="img-section flex relative">
+            <div className="img-section flex relative mt-10 md:mt-0">
               <div
                 className="section absolute bottom-0"
                 style={{ left: "-90px" }}

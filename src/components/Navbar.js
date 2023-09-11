@@ -4,7 +4,7 @@ function NavBar() {
   const showNav = useRef();
 
   return (
-    <div className="navbar container mx-auto p-5 text-white font-satoshi">
+    <div className="navbar container mx-auto p-2 text-white font-satoshi">
       <div className="flex justify-between items-center">
         <div className="icon ">
           <img
