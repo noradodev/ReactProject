@@ -7,8 +7,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="container mx-auto">
-        <div className="">
+      <div className="">
+        <div className="bg-green-950">
           <NavBar />
         </div>
         <div>

@@ -4,7 +4,7 @@ function NavBar() {
   const showNav = useRef();
 
   return (
-    <div className="navbar p-5">
+    <div className="navbar container mx-auto p-5 text-white font-satoshi">
       <div className="flex justify-between items-center">
         <div className="icon ">
           <img
@@ -12,11 +12,12 @@ function NavBar() {
             class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} rounded-full inline pe-3"
             alt=""
           />
-          <Link to="/" className="bg-yellow-200 p-2 rounded-full text-sm ">
+          {/* <Link to="/" className="bg-yellow-200 p-2 rounded-full text-sm ">
             We are hiring
-          </Link>
+          </Link> */}
         </div>
-        <div className="navbar-link text-md tracking-widest ">
+
+        <div className="navbar-link text-sm tracking-widest ">
           <Link to="/" className="mx-2 hover:underline">
             Work
           </Link>
@@ -29,9 +30,11 @@ function NavBar() {
           <Link to="/about" className="mx-2 hover:underline">
             Blog
           </Link>
+        </div>
+        <div>
           <Link
             to="/about"
-            className="mx-2 border border-black p-3 rounded-full hover:bg-slate-400 hover:border-white"
+            className="mx-2 p-3 rounded bg-green-700 hover:bg-slate-400"
           >
             Let's Talk
           </Link>
