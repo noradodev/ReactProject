@@ -3,21 +3,21 @@ function TopSection() {
     <>
       <div className="top-section container mx-auto">
         <div className="">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center m-10 md:m-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center m-5 md:m-20">
             <div className="text-section font-satoshi">
               {/* Text */}
               <div className="top-text ">
                 <h1 className="text-5xl font-bold">
                   Teams build better products with Align
                 </h1>
-                <p className="text-green-950">
+                <p className="text-green-950 mt-2">
                   Align is constantly improving to move forward through
                   dashboard, statistics, data and verify and superior human
                   resources.
                 </p>
               </div>
               <div className="button-section mt-10 text-white">
-                {/* Button */}d
+                {/* Button */}
                 <div className="block md:inline">
                   <button
                     href="#"
