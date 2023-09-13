@@ -7,7 +7,7 @@ const NavLinks = ({ closeMobileMenu }) => {
       <li>
         <Link
           to="/"
-          className="block py-2 pl-3 pr-4 text-white 
+          className="block py-2 pl-3 pr-4 md:text-white text-green-950 
           rounded md:bg-transparent md:text-blue-700 md:p-0
           md:dark:text-blue-500"
           aria-current="page"
@@ -19,7 +19,7 @@ const NavLinks = ({ closeMobileMenu }) => {
       <li>
         <Link
           to="/about"
-          className="block py-2 pl-3 pr-4 text-white
+          className="block py-2 pl-3 pr-4 md:text-white text-green-950
           rounded md:bg-transparent md:p-0"
           aria-current="page"
           onClick={closeMobileMenu} // Close the mobile menu when a link is clicked
@@ -30,7 +30,7 @@ const NavLinks = ({ closeMobileMenu }) => {
       <li>
         <Link
           to="/about"
-          className="block py-2 pl-3 pr-4 text-white 
+          className="block py-2 pl-3 pr-4 md:text-white text-green-950 
           rounded md:bg-transparent md:p-0"
           aria-current="page"
           onClick={closeMobileMenu} // Close the mobile menu when a link is clicked
@@ -41,7 +41,7 @@ const NavLinks = ({ closeMobileMenu }) => {
       <li>
         <Link
           to="/contact"
-          className="block py-2 pl-3 pr-4 text-white 
+          className="block py-2 pl-3 pr-4 md:text-white text-green-950 
           rounded md:bg-transparent md:p-0"
           aria-current="page"
           onClick={closeMobileMenu} // Close the mobile menu when a link is clicked
@@ -110,7 +110,7 @@ function Navbar() {
           } md:block items-center justify-between w-full md:w-auto md:order-1`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-green-800 md:dark:bg-green-950 dark:border-green-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  bg-gray-50  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-green-950 dark:bg-green-800 md:dark:bg-green-950 dark:border-green-700">
             <NavLinks closeMobileMenu={closeMobileMenu} />{" "}
             {/* Pass the closeMobileMenu function */}
           </ul>
